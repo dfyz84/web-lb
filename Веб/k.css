@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;
+    margin: ;
+    padding: ;
+}
+body {
+    font-family: Montserrat, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+header {
+    background: #8fc571;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+nav {
+    margin: 20px ;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline;
+    margin:  10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px ;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+section h2 {
+    color: #4CAF50;
+}
+footer {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 15px ;
+}
+section + section {
+    margin-top: 20px;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    background: #96AE00;
+    box-shadow: 0 5px 0 #768801;
+    padding: 10px;
+}
+h2::before {
+    content: "- ";
+}
+
+footer p {
+    margin: 5px ;
+}
+ol {
+    margin-left: 20px;
+}
+
+ul {
+* {
+  box-sizing: border-box;
+  margin: ;
+  padding: ;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+header {
+  background: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+nav {
+  margin: 20px ;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin:  10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px ;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+section {
+  padding: 20px;
+  margin: 20px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+section h2 {
+  color: #4CAF50;
+}
+
+footer {
+  background: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+
+section + section {
+  margin-top: 20px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    background: #96AE00;
+    box-shadow: 0 5px 0 #768801;
+    padding: 10px;
+}
+
+h2::before {
+  content: "-";
+}
+
+footer p {
+  margin: 5px;
+}
+
+ol {
+  margin-left: 20px;
+}
+
+ul {
+  margin-left
+ul {
+ margin-left: 20px;
+}
+
+img {
+ max-width: 100%;
+ height: auto;
+ border-radius: 4px;
+}
+
+form {
+ background: #f2f2f2;
+ padding: 15px;
+ border-radius: 4px;
+}
+
+label {
+ display: block;
+ margin-top: 10px;
+}
+
+button {
+ padding: 10px 15px;
+ border: none;
+ border-radius: 4px;
+ background-color: #4CAF50;
+ color: white;
+ cursor: pointer;
+}
+
+button:hover {
+ background-color: #45a049;
+}
+
+ol {
+ padding-left: 20px;
+}
+
+ul {
+ padding-left: 20px;
+}
+
+section p {
+ margin: 10px ;
+ line-height: 1.5;
+}
+
+h2 {
+ margin-bottom: 15px;
+}
+
+footer {
+ margin-top: 20px;
+ font-size: .9em;
+}
+
+@media (max-width: 600px) {
+ nav ul li {
+  display: block;
+  margin: 5px ;
+ }
+}
